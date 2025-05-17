@@ -37,14 +37,14 @@ The PII Security System is a comprehensive solution designed for government webs
 
 ## Technical Stack
 
-### **Backend** ([Repo](https://github.com/atupatu/pccoe))
+### **Backend** 
 - Flask: Python-based web framework for core API services.
 - Guardian Analyzer: Core PII detection engine.
 - TensorFlow: Machine learning models for PII detection.
 - PyTorch: Deep learning framework for audio processing.
 - FileBrowser: Web-based file management interface.
 
-### **Frontend** ([Repo](https://github.com/atupatu/pccoe))
+### **Frontend** 
 - Vue.js: JavaScript framework for web interface.
 - Vuex: State management.
 - TailwindCSS: Utility-first CSS framework for styling.
