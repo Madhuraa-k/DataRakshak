@@ -56,7 +56,7 @@ DataRakshak is a comprehensive solution designed for government websites and app
 ### **Installation**
 ```bash
 # Clone repository
-git clone https://github.com/atupatu/pccoe.git
+git clone https://github.com/Madhuraa-k/DataRakshak
 
 # Install dependencies
 cd pii-security-system
