@@ -1,37 +1,29 @@
-# PII Security System
+DataRakshak
 
 ## Overview
-The PII Security System is a comprehensive solution designed for government websites and applications, providing advanced cybersecurity features with a focus on personally identifiable information (PII) detection and audio redaction. Built as both a Vue.js web platform and a React Native mobile application, this system integrates seamlessly with existing government digital infrastructure.
+DataRakshak is a comprehensive solution designed for government websites and applications, providing advanced cybersecurity features with a focus on personally identifiable information (PII) detection and audio redaction. Built as both a Vue.js web platform and a React Native mobile application, this system integrates seamlessly with existing government digital infrastructure.
 
 ## Key Features
 
-### 🔒 PII Detection & Protection
+### PII Detection & Protection
 - **Advanced Document Scanning**: Automatically identifies PII in documents, including names, addresses, ID numbers, and biometric identifiers.
 - **Real-time Detection**: Processes documents on-the-fly to flag sensitive information as it's uploaded or entered.
 - **Custom PII Rules**: Configurable rules for different document types and government departments.
 - **Domicile Certificate Processing**: Specialized handling for domicile certificates and similar government documents.
 
-### 🔊 Audio Redaction
-- **Speech Recognition**: Converts audio files to text for PII analysis.
-- **Automated Redaction**: Identifies and removes sensitive information from audio recordings.
-- **Batch Processing**: Handles multiple audio files simultaneously.
-- **Configurable Sensitivity**: Adjustable thresholds for PII detection in audio.
-
-### 🌐 Integration Capabilities
+### Integration Capabilities
 - **API-First Design**: RESTful API architecture for easy integration with existing systems.
 - **Plug-and-Play Deployment**: Can be implemented on top of any government website or application.
 - **Cross-Platform Support**: Functions across browsers, operating systems, and mobile devices.
 - **Lightweight Implementation**: Minimal performance impact on host applications.
 
-### 📊 Security Analytics
+### Security Analytics
 - **PII Exposure Dashboard**: Visual reporting of PII detection metrics.
 - **Threat Intelligence**: Identifies potential data breach vulnerabilities.
-- **Audit Logging**: Comprehensive tracking of all system activities.
 - **Compliance Reporting**: Generates reports for regulatory requirements.
 
-### 🔄 Cross-Platform Experience
+### Cross-Platform Experience
 - **Responsive Web Interface**: Built with Vue.js for a seamless browser experience.
-- **Mobile Application**: React Native app with Expo for iOS and Android with feature parity to web version.
 - **Offline Capabilities**: Core functionality available without an internet connection.
 - **Synchronized Experience**: Consistent user experience across all platforms.
 
@@ -106,24 +98,6 @@ expo build:ios
 - See `docs/integration_guide.md` for detailed instructions.
 - Use the provided REST API endpoints in `docs/api_reference.md`.
 - Sample integration code available in the `examples/` directory.
-
-## System Requirements
-
-### **Backend Server**
-- Python 3.8+
-- 8GB RAM minimum (16GB recommended)
-- 4 CPU cores minimum
-- 50GB storage for application and logs
-
-### **FileBrowser**
-- Port `8080` must be available (configurable).
-- Read/write permissions on target directories.
-
-### **Frontend Development**
-- Node.js 14+
-
-### **Mobile Development**
-- Expo SDK 44+
 
 ## Security Considerations
 - All PII processing occurs on-premises to maintain data sovereignty.
