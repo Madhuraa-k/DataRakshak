@@ -1,4 +1,4 @@
-DataRakshak
+## DataRakshak
 
 ## Overview
 DataRakshak is a comprehensive solution designed for government websites and applications, providing advanced cybersecurity features with a focus on personally identifiable information (PII) detection and audio redaction. Built as both a Vue.js web platform and a React Native mobile application, this system integrates seamlessly with existing government digital infrastructure.
